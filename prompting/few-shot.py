@@ -4,8 +4,7 @@ from openai import OpenAI
 load_dotenv()
 
 client=OpenAI(
-     api_key="AIzaSyB5bidaKE78D8NlE5hSsQ2OVklXfuiKVqE",
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
 # Few shot prompting is providing direct instructions with some examples to the ai to what to do.

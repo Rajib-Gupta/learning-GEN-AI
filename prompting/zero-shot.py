@@ -5,7 +5,6 @@ load_dotenv()
 
 # Zero shot promting is we have to give direct instructions to the ai to what to do.
 client = OpenAI(
-    api_key="AIzaSyB5bidaKE78D8NlE5hSsQ2OVklXfuiKVqE",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
